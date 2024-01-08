@@ -355,7 +355,9 @@ color: var(--NAVY-BLUE, #2E2F42);
 /*-----------PORTFOLIO-----------------*/
 
 .portfolio {
-  
+padding-top: 120px;
+padding-bottom: 120px;
+
 }
 
 .portfolio-title {
@@ -396,6 +398,12 @@ color: var(--NAVY-BLUE, #2E2F42);
     margin: 0 auto;
 }
 
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .portfolio-subtitles {
 
     color: var(--NAVY-BLUE, #2E2F42);
@@ -405,6 +413,7 @@ color: var(--NAVY-BLUE, #2E2F42);
         /* 120% */
         letter-spacing: 0.02em;
         padding-left: 16px;
+        margin-bottom: 8px;
 }
 
 .portfolio-text {
