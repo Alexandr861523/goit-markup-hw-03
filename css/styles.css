@@ -250,7 +250,7 @@ color: #404bbf;
 }
 
 .features-item {
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .fetures-subtile {
@@ -316,9 +316,9 @@ width: calc((100% - 72px) / 4);
 
 .team-item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    
 
     
 }
