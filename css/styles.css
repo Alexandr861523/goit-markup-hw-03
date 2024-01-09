@@ -246,11 +246,11 @@ color: #404bbf;
     padding-left: 156px;
     padding-right: 156px;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    
 }
 
 .features-item {
-    
+width: calc((100% - 72px) / 4);
 }
 
 .fetures-subtile {
@@ -299,6 +299,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         padding-top: 120px;
+        margin-bottom: 72px;
 }
 
 .team-list {
@@ -317,6 +318,7 @@ color: #404bbf;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 
     
 }
