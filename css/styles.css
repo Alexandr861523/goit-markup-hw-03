@@ -243,8 +243,6 @@ color: #404bbf;
 
 .fetures-list {
     display: flex;
-    padding-left: 156px;
-    padding-right: 156px;
     gap: 24px;
     
 }
